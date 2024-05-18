@@ -3,7 +3,7 @@ import { FaBookmark } from 'react-icons/fa';
 
 const Blog = ({blog,handelAddToBookmarks,handelMarksAsReed}) => {
 
-    const {title,cover,author,author_img,reading_time,post_date,hashtags,}=blog
+    const {title,cover,author,author_img,reading_time,post_date,hashtags,id}=blog
     return (
         <div className='mt-20'>
             <img className='mb-8' src={cover} alt={`cover picture of the title ${title}`} />
@@ -31,7 +31,7 @@ const Blog = ({blog,handelAddToBookmarks,handelMarksAsReed}) => {
             </p>
             <button 
             className='underline border-blue-700 text-blue-700 mt-5'
-             onClick={()=>handelMarksAsReed(reading_time)}>Mark as read</button>
+             onClick={()=>handelMarksAsReed(reading_time,id)}>Mark as read</button>
         </div>
     );
 };
