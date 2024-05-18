@@ -5,7 +5,7 @@ import Blog from "../Blog/Blog";
 import PropTypes from 'prop-types'
 
 
-const Blogs = ({handelAddToBookmarks}) => {
+const Blogs = ({handelAddToBookmarks,handelMarksAsReed}) => {
 
     const [blogs ,setBlogs]=useState([]);
     useEffect( () =>{
@@ -23,6 +23,7 @@ const Blogs = ({handelAddToBookmarks}) => {
                     key={blog.id}
                     blog={blog}
                     handelAddToBookmarks={handelAddToBookmarks}
+                    handelMarksAsReed={handelMarksAsReed}
                 ></Blog>)
             }
             
@@ -30,6 +31,7 @@ const Blogs = ({handelAddToBookmarks}) => {
     );
 };
 Blogs.propTypes ={
-    handelAddToBookmarks:PropTypes.func
+    handelAddToBookmarks:PropTypes.func,
+    handelMarksAsReed:PropTypes.func
 }
 export default Blogs;

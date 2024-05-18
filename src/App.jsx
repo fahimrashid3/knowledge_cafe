@@ -5,11 +5,17 @@ import Bookmarks from './components/Bookmarks/Bookmarks'
 import Header from './components/Header/Header'
 
 function App() {
-  const [bookmarks ,setBookmarks]=useState([])
-  const handelAddToBookmarks =blog =>{
+  const [bookmarks ,setBookmarks]=useState([]);
+  const [readingTime ,setReadingTime]=useState(0)
 
+
+  const handelAddToBookmarks =blog =>{
     const newBookmarks =[...bookmarks,blog];
     setBookmarks(newBookmarks);
+  }
+  const handelMarksAsReed =time=>{
+    setReadingTime(readingTime + time);
+    
   }
 
 
@@ -18,8 +24,11 @@ function App() {
     <>
       <Header></Header>
       <div className='md:flex max-w-7xl mx-auto gap-20'>
-      <Blogs handelAddToBookmarks={handelAddToBookmarks}></Blogs>
-      <Bookmarks bookmarks={bookmarks}></Bookmarks>
+      <Blogs 
+      handelAddToBookmarks={handelAddToBookmarks} 
+      handelMarksAsReed={handelMarksAsReed}
+      ></Blogs>
+      <Bookmarks bookmarks={bookmarks} readingTime={readingTime}></Bookmarks>
       </div>
         
       
