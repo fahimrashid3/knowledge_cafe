@@ -1,52 +1,52 @@
 [
     {
         "id": "1a2b3c",
-        "cover": "https://images.unsplash.com/photo-1512820790803-83ca734da794",
+        "cover": "https://images.unsplash.com/photo-1526948128573-703ee1aeb6fa",
         "title": "Whispers of the Forgotten",
         "author": "Lena Armstrong",
-        "author_img": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce",
+        "author_img": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&w=200&q=80",
         "post_date": "2023-04-15",
-        "reading_time": "8 min",
+        "reading_time": 8,
         "hashtags": ["#Mystery", "#Thriller", "#Bestseller"]
     },
     {
         "id": "4d5e6f",
-        "cover": "https://images.unsplash.com/photo-1509021436665-8f07dbf5bf1d",
+        "cover": "https://images.unsplash.com/photo-1496096265110-f83ad7f96608",
         "title": "Journey Through the Stars",
         "author": "Ethan Clarke",
-        "author_img": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1",
+        "author_img": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&w=200&q=80",
         "post_date": "2023-02-20",
-        "reading_time": "12 min",
+        "reading_time": 12,
         "hashtags": ["#ScienceFiction", "#Adventure", "#Space"]
     },
     {
         "id": "7g8h9i",
-        "cover": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+        "cover": "https://images.unsplash.com/photo-1506784365847-bbad939e9335",
         "title": "Echoes of the Past",
         "author": "Sophia Martinez",
-        "author_img": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df",
+        "author_img": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&w=200&q=80",
         "post_date": "2023-06-10",
-        "reading_time": "10 min",
+        "reading_time": 10,
         "hashtags": ["#Historical", "#Drama", "#Romance"]
     },
     {
         "id": "0j1k2l",
-        "cover": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853",
+        "cover": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
         "title": "The Digital Frontier",
         "author": "Alex Chen",
-        "author_img": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde",
+        "author_img": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&w=200&q=80",
         "post_date": "2023-05-05",
-        "reading_time": "15 min",
+        "reading_time": 15,
         "hashtags": ["#Technology", "#Future", "#Innovation"]
     },
     {
         "id": "3m4n5o",
-        "cover": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d",
+        "cover": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30",
         "title": "Silent Storm",
         "author": "Nina Patel",
-        "author_img": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
+        "author_img": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=200&w=200&q=80",
         "post_date": "2023-03-22",
-        "reading_time": "7 min",
+        "reading_time": 7,
         "hashtags": ["#Nature", "#Survival", "#Adventure"]
     }
 ]
